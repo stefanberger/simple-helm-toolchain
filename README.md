@@ -12,7 +12,7 @@ commits, issue tracking, online editing, automatic linting of files, configurati
 [![Create toolchain](https://console.bluemix.net/devops/graphics/create_toolchain_button.png)](https://console.bluemix.net/devops/setup/deploy/?repository=https%3A//github.com/open-toolchain/simple-helm-toolchain)
 
 ### Use it with your own application:
-This template assumes an application (e.g. [hello-helm](https://github.com/open-toolchain/hello-helm)) structured like this  :
+This template assumes an application (e.g. [hello-helm](https://github.com/stefanberger/simple-helm-toolchain)) structured like this  :
 - `/Dockerfile` [must] -- the docker file used to build the container image in root folder
 - `/chart /your-app-name`  [must] -- the Helm Chart used to deploy this application. The CI pipeline automatically binding it with build information (e.g. image tag) leveraging Helm ability to parameterize deployment actions.
 
